@@ -43,7 +43,8 @@ while True:
                     'Name': name,
                     'Classes': 1,
                     'Status': status,
-                    'Time In': time_in
+                    'Time In': time_in,
+                    'Time Out' : ''
                 }])
                 df = pd.concat([df, new_row], ignore_index=True)
 
